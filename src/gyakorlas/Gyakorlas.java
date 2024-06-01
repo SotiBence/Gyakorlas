@@ -10,7 +10,11 @@ public class Gyakorlas {
     }
 
     private static void feladatok() {
-        konzolraIr("");
+        
+    }
+    
+    private static int osszegzes(){
+        return 0;
     }
 
     private static void konzolraIr(String kimenet) {
