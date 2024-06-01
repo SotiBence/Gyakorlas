@@ -85,7 +85,7 @@ public class Gyakorlas {
     private static int kivalasztas(){
         
         int i =0;
-        while(sorozat[i] >= 4){
+        while(!(sorozat[i] >= 4)){
             i++;
         }
         
@@ -155,8 +155,8 @@ public class Gyakorlas {
     }
 
     private static void kivalasztasBemutatasa() {
-        konzolraIr("kivalasztas tetele: " + SEP);
-        kivalasztas();
+        konzolraIr("az elso elem ami > 5 : " );
+        konzolraIr(sorozat[kivalasztas()] + SEP);
     }
 
     private static void eldontesekBemutatasa() {
